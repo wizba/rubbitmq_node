@@ -1,0 +1,23 @@
+{
+  "name": "amq_node",
+  "version": "1.0.0",
+  "description": "using node js with rubbit mq",
+  "main": "publisher.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consumer": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizba/rubbitmq_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizba/rubbitmq_node/issues"
+  },
+  "homepage": "https://github.com/wizba/rubbitmq_node#readme",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
